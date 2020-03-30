@@ -2,10 +2,12 @@
   "name": "under-cover",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:4000/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
     "immer": "^6.0.2",
     "mobx": "^5.15.4",
     "mobx-react": "^6.1.8",
