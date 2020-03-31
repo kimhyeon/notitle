@@ -1,13 +1,20 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import LoginForm from './app/components/LoginForm.js';
+import Login from './app/routes/Login';
 
-function App() {
+import Login from './app/routes/Login';
+
+const App = () => {
   return (
-    <div>
-      <LoginForm />
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/" component={Login} />
+        </Switch>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
