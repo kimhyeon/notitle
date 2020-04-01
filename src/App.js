@@ -1,20 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Login from './app/routes/Login';
 
-import Login from './app/routes/Login';
+class App extends Component {
+  // state = {};
 
-const App = () => {
-  return (
-    <Router>
-      <div>
-        <Switch>
-          <Route exact path="/" component={Login} />
-        </Switch>
-      </div>
-    </Router>
-  );
-};
+  render() {
+    return (
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path="/" component={Login} />
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
+}
 
 export default App;

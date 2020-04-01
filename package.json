@@ -8,11 +8,13 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "customize-cra": "^0.9.1",
     "immer": "^6.0.2",
     "mobx": "^5.15.4",
     "mobx-react": "^6.1.8",
     "nodemailer": "^6.4.5",
     "react": "^16.13.0",
+    "react-app-rewired": "^2.1.5",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"
